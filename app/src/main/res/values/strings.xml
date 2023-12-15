@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Evaluacion3</string>
+    <string-array name="spn_categoria">
+        <item>Acción</item>
+        <item>Suspenso</item>
+        <item>Aventura</item>
+        <item>Thriller</item>
+    </string-array>
+</resources>

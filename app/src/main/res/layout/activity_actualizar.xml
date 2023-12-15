@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libreria JoyBoy!"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/white">
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_update_128x128">
+    </ImageView>
+
+
+    <EditText
+        android:id="@+id/edt_nombre"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:hint="Nombre del libro">
+    </EditText>
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edt_autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:hint="Autor del libro">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_fecha"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha"
+        android:textColorHint="@color/black"
+        android:inputType="date">
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spn_categoria"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </Spinner>
+
+    <EditText
+        android:id="@+id/edt_comentario"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comentarios"
+        android:textColorHint="@color/black">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:text="Actualizar libro">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:text="Eliminar libro">
+    </Button>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/update_64x64"
+        android:layout_marginTop="20dp">
+    </ImageView>
+
+</LinearLayout>

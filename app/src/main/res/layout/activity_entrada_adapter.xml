@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idCVEntradaItem"
+    android:layout_width="match_parent"
+    android:backgroundTint="@color/background"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp"
+    android:layout_height="match_parent"
+
+    tools:context=".EntradaAdapter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/txv_nombreLibro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Nombre del libro"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txv_autor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Autor"
+            android:textColor="@color/white">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txv_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Fecha"
+            android:textColor="@color/white">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txv_categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Categoria"
+            android:textColor="@color/white">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txv_comentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Comentario"
+            android:textColor="@color/white">
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

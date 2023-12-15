@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24050471491",
+    "project_id": "libreria-951d3",
+    "storage_bucket": "libreria-951d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24050471491:android:ae0fe57bcb976d2629faf6",
+        "android_client_info": {
+          "package_name": "com.inacap.evaluacion3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5LvOO6SfLBWUOQC5kl7SZBoWdYTdk4GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
